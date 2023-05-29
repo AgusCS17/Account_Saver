@@ -12,6 +12,7 @@ print("Hai, Welcome to Account Saver")
 time.sleep(2)
 
 '''
+*Use this code once only for creating the key after that comment it
 def write_key():
     key = Fernet.generate_key()
     with open("key.key", "wb") as key_file:
